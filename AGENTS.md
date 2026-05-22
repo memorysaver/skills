@@ -70,6 +70,8 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 Personal collection of agent skills, distributed two ways from one repo.
 
+Use the `project-memory` skill to capture session lessons under `project-memory/` at the project root — bootstrap on first run, capture notable moments, wrap up at session end, and query prior sessions before re-deriving knowledge.
+
 ## Layout
 
 ```
