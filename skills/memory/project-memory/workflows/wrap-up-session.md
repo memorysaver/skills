@@ -91,6 +91,12 @@ Print, concisely:
 - If the file has a `Deviations` section, summarise it in one line on hand-off ("Implementation followed the spec with 2 intentional deviations; see Deviations.").
 - A reminder to `git add project-memory/lesson-learned/<date>/ && git commit` when convenient.
 
+### 7. Suggest memory-forge if enough lessons have accumulated (optional)
+
+If the [`memory-forge`](../../memory-forge/SKILL.md) skill is installed, hand off to its [`on-wrap-up.md`](../../memory-forge/workflows/on-wrap-up.md) workflow. It runs a cheap shell-only check — if ≥3 lessons have accumulated since the last forge AND at least one is past the 7-day pre-filter, it'll suggest running a forge pass to distill them into reusable skills.
+
+This step is additive and non-blocking: if `memory-forge` isn't installed, skip it. If the check says "not enough accumulated yet" or "all under the pre-filter window", stay silent.
+
 ## Curating Running Themes (optional)
 
 If this session shares an obvious pattern with ≥1 prior session (same mistake recurring, same approach repeatedly working), manually update the `## Running Themes` section of `_INDEX.md` with a new entry or an updated one. This is hand-curation — don't automate it. Running Themes are the most useful part of the index for humans; keep them tight.

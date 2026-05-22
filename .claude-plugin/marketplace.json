@@ -5,7 +5,7 @@
     "email": "mfa1484@gmail.com"
   },
   "metadata": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Personal agent skills by memorysaver — installable as a Claude Code plugin or via `npx skills@latest add memorysaver/skills`."
   },
   "plugins": [
@@ -25,7 +25,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/memory/project-memory"
+        "./skills/memory/project-memory",
+        "./skills/memory/memory-forge"
       ]
     }
   ]
