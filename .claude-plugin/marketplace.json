@@ -1,0 +1,22 @@
+{
+  "name": "memorysaver-skills",
+  "owner": {
+    "name": "memorysaver",
+    "email": "mfa1484@gmail.com"
+  },
+  "metadata": {
+    "version": "0.0.1",
+    "description": "Personal agent skills by memorysaver — installable as a Claude Code plugin or via `npx skills@latest add memorysaver/skills`."
+  },
+  "plugins": [
+    {
+      "name": "core",
+      "description": "Core skills group. Replace with real skill bundles as they are added.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/example-skill"
+      ]
+    }
+  ]
+}
