@@ -15,7 +15,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/project-scaffold/canonical-project-skills-layout"
+        "./skills/project-scaffold/canonical-project-skills-layout",
+        "./skills/project-scaffold/project-behavior"
       ]
     }
   ]
