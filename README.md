@@ -26,14 +26,14 @@ npx skills@latest add memorysaver/skills --global
 
 ```text
 /plugin marketplace add memorysaver/skills
-/plugin install core@memorysaver-skills
+/plugin install project-scaffold@memorysaver-skills
 ```
 
 ## What's in here
 
-| Skill | Description |
-|-------|-------------|
-| `example-skill` | Placeholder. Will be replaced with real skills. |
+| Category | Skill | Description |
+|----------|-------|-------------|
+| `project-scaffold` | [`canonical-project-skills-layout`](./skills/project-scaffold/canonical-project-skills-layout) | Converge any project to a canonical layout so Claude Code, Codex, and Pi Agent share one `skills/` source and one `AGENTS.md` guide. Idempotent, with a dry-run. |
 
 ## Layout
 

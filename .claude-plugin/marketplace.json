@@ -10,12 +10,12 @@
   },
   "plugins": [
     {
-      "name": "core",
-      "description": "Core skills group. Replace with real skill bundles as they are added.",
+      "name": "project-scaffold",
+      "description": "Skills for setting up and aligning project-level agent layouts across Claude Code, Codex, and Pi Agent.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/example-skill"
+        "./skills/project-scaffold/canonical-project-skills-layout"
       ]
     }
   ]
