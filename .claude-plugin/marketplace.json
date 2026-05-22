@@ -18,6 +18,15 @@
         "./skills/project-scaffold/canonical-project-skills-layout",
         "./skills/project-scaffold/project-behavior"
       ]
+    },
+    {
+      "name": "memory",
+      "description": "Skills for capturing, organizing, and retrieving project knowledge as a git-committable memory system.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/memory/project-memory"
+      ]
     }
   ]
 }
