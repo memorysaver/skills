@@ -70,7 +70,22 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 Personal collection of agent skills, distributed two ways from one repo.
 
-Use the `project-memory` skill to capture session lessons under `project-memory/` at the project root — bootstrap on first run, capture notable moments, wrap up at session end, and query prior sessions before re-deriving knowledge.
+## Project Memory Autopilot
+
+Use the `project-memory` skill proactively. Trigger it for substantive repo
+work, not only when the user says "memory".
+
+- Start a session before multi-step implementation, debugging, refactoring,
+  design, or tool-heavy work. Use `mode=session` by default; use `mode=spec`
+  only when implementing a written spec.
+- Bootstrap first if `project-memory/_CONTEXT.md` is missing and the user wants
+  ongoing project memory.
+- Query memory before re-solving something that sounds recurring: similar bug,
+  prior decision, repeated workflow, or "have we seen this before".
+- Capture notable moments during work: user steering, skill/tool misfires,
+  surprising wins or failures, and durable rules.
+- Wrap up active sessions before final handoff, unless the task was trivial.
+  Follow the `memory-forge` handoff when enough lessons have accumulated.
 
 ## Layout
 
