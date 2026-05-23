@@ -13,3 +13,4 @@ Sessions captured today. Each row points to a session file in the same folder.
 | Time | Mission | Outcome | File |
 | ---- | ------- | ------- | ---- |
 | 01:40 | build memory-forge skill | success | [session-0140-build-memory-forge-skill.md](./session-0140-build-memory-forge-skill.md) |
+| 23:23 | document memory skill triggers | success | [session-2323-document-memory-skill-triggers.md](./session-2323-document-memory-skill-triggers.md) |
